@@ -1,0 +1,54 @@
+:root {
+    --input-font-size: 1em;
+    --input-sm: calc(var(--input-font-size) - 0.2em);
+    --input-md: calc(var(--input-font-size) + 0.2em);
+    --input-lg: calc(var(--input-font-size) + 0.4em);
+
+    --input-radius: var(--radius);
+
+    --input-border: var(--form-element-border);
+    --input-focus-h: 245;
+    --input-focus-s: 100%;
+    --input-focus-l: 42%;
+}
+
+.msg {
+    display: inline-flex;
+    position: relative;
+    text-decoration: none;
+    line-height: 1;
+
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid var(--input-border);
+    border-radius: var(--input-radius);
+    font-size: var(--input-font-size);
+    color: var(--color---form-text-placeholder);
+
+    transition: .2s;
+}
+
+/* themes */
+.msg--info {
+    background-color: var( --gray-4);
+    border: 1px solid var( --gray-6);
+    color: var( --gray-6);
+}
+
+.msg--warning {
+    background-color: rgba(var(--color-warning--rgb), 0.3);
+    border: 1px solid var(--color-waning);
+    color: var(--color-waning);
+}
+
+.msg--error {
+    background-color: rgba(var(--color-error--rgb), 0.3);
+    border: 1px solid var(--color-error);
+    color: var(--color-error);
+}
+
+/* sizes */
+.msg--full-width {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

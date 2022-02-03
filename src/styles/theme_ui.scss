@@ -1,0 +1,27 @@
+@import './theme_spacing.scss';
+@import './theme_colors.scss';
+@import './theme_typography.scss';
+@import './theme_icons.scss';
+@import './theme_buttons.scss';
+@import './theme_inputs.scss';
+@import './theme_messages.scss';
+
+:root {
+    --radius: 2px;
+}
+
+// Containers
+.theme__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--component-padding);
+    width: 100%;
+}
+
+// Boxes
+.theme__box {
+    background-color: var(--white);
+    border-radius: var(--radius);
+    padding: var(--space-xs);
+    overflow: hidden;
+}

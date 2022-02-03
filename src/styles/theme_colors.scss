@@ -1,0 +1,75 @@
+:root {
+    /* main colors */
+    --color-primary: hsl(164, 65%, 62%);
+    --color-primary--rgb: 95, 221, 187;
+    --color-primary-light: hsl(164, 65%, 82%);
+    --color-primary-dark: hsl(164, 65%, 42%);
+
+    --color-secondary: hsl(49, 97%, 60%);
+    --color-secondary--rgb: 252, 216, 54;
+    --color-secondary-light: hsl(49, 97%, 80%);
+    --color-secondary-dark: hsl(49, 97%, 40%);
+
+    --color-accent: hsl(355, 90%, 61%);
+    --color-accent--rgb: 245, 65, 79;
+    --color-accent-light: hsl(355, 90%, 81%);
+    --color-accent-dark: hsl(355, 90%, 41%);
+
+    // shades - generated using chroma.js - 12 steps
+    --black: #1d1d21;
+    --gray-10: #2e2e31;
+    --gray-6: #7b7a7d;
+    --gray-4: #a5a5a6;
+    --gray-3: #bbbbbc;
+    --gray-2: #d1d0d2;
+    --gray-1: #e8e7e8;
+    --white: white;
+
+    /* feedback */
+    --color-success: #88c459;
+    --color-success--rgb: 136, 196, 89;
+    --color-error: #f5414f;
+    --color-error--rgb: 245, 65, 79;
+    --color-warning: #ffd137;
+    --color-warning--rgb: 255, 209, 55;
+
+    /* typography */
+    --color-text: var(--gray-10);
+    --color-text-heading: var(--black);
+    --color-text-subtle: var(--gray-6);
+    --color-link: var(--color-primary);
+    --color-link-visited: var(--color-primary-dark);
+    --color-mark: var(--color-accent-bg);
+    --color-blockquote-border: var(--gray-2);
+
+    /* border */
+    --color-border: var(--gray-2);
+
+    /* body */
+    --color-body: var(--white);
+
+    /* forms */
+    --form-element-border: var(--color-border);
+    --form-element-border-focus: var(--color-primary);
+    --form-element-border-error: var(--color-error);
+    --form-element-bg: var(--white);
+    --form-text-placeholder: var(--gray-4);
+
+    /* buttons */
+    --btn-primary-bg: var(--color-primary);
+    --btn-primary-hover: var(--color-primary-light);
+    --btn-primary-active: var(--color-primary-dark);
+    --btn-primary-label: var(--white);
+
+    --btn-secondary-bg: var(--color-secondary);
+    --btn-secondary-hover: var(--color-secondary-light);
+    --btn-secondary-active: var(--color-secondary-dark);
+    --btn-secondary-label: var(--white);
+
+    --btn-disabled-bg: var(--gray-3);
+    --btn-disabled-label: var(--gray-4);
+
+    /* icons */
+    --color-icon-primary: var(--gray-4);
+    --color-icon-secondary: inherit;
+}

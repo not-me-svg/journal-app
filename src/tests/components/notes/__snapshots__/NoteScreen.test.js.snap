@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <NoteScreen /> debe de mostrarse correctamente 1`] = `ReactWrapper {}`;
+
+exports[`Test in <NoteScreen /> Should show 1`] = `ReactWrapper {}`;
