@@ -41,7 +41,7 @@ export const NoteScreen = () => {
 
   return (
     <div>
-      <NotesAppBar />
+      <NotesAppBar { ...note }/>
 
       <div className="ja__note-screen">
         <form>
