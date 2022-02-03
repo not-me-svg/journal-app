@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//not-me-svg.github.io/journal-app/static/css/main.b1ef44f5.css",
+    "main.js": "//not-me-svg.github.io/journal-app/static/js/main.3fd78669.js",
+    "index.html": "//not-me-svg.github.io/journal-app/index.html",
+    "main.b1ef44f5.css.map": "//not-me-svg.github.io/journal-app/static/css/main.b1ef44f5.css.map",
+    "main.3fd78669.js.map": "//not-me-svg.github.io/journal-app/static/js/main.3fd78669.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1ef44f5.css",
+    "static/js/main.3fd78669.js"
+  ]
+}
